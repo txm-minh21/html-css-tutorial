@@ -1,0 +1,18 @@
+@font-face {
+    src: url(fonts/Roboto-Light.ttf);
+    font-family: Roboto-Light;
+}
+@font-face {
+    src: url(fonts/Lato-Regular.ttf);
+    font-family: Lato-Regular;
+}
+
+h1 {
+    font-family: Roboto-Light, "Lato", verdana, arial;
+}
+p {
+    font-family: Lato-Regular, 'Lato', 'lucida console', 'courier new';
+    font-size: 1em;
+    font-weight: bold;
+    font-style: italic;
+}

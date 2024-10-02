@@ -1,0 +1,16 @@
+h1 {
+    /**
+     *  1. Horizontal offset (required)
+     *  2. Vertical offset (required)
+     *  3. Blur radius (optional)
+     *  4. Color of the shadow (optional) 
+     * */
+    text-shadow: 1px 1px 5px hsl(0, 100%, 61%), -3px -3px 5px hsl(182, 100%, 61%);
+}
+
+#box1 {
+    width: 100px;
+    height: 100px;
+    background-color: rgb(234, 234, 234);
+    box-shadow: 3px 3px 5px hsl(229, 97%, 46%);
+}
