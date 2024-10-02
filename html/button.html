@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Button</title>
+  </head>
+  <body>
+    <button
+      onclick="doSomething()"
+      style="
+        font-size: 25px;
+        background-color: grey;
+        color: white;
+        border-radius: 10px;
+        cursor: grab;
+      "
+    >
+      Click me
+    </button>
+
+    <p id="greeting">Hello</p>
+
+    <script>
+      function doSomething() {
+        document.getElementById("greeting").innerHTML = "Goodbye";
+      }
+    </script>
+
+    <a href="lyrics.html">
+      <button
+        style="
+          font-size: 25px;
+          background-color: rgb(32, 95, 230);
+          color: black(85, 11, 204, 0.801);
+          border-radius: 10px;
+        "
+      >
+        Redirect to Song
+      </button>
+    </a>
+  </body>
+</html>
