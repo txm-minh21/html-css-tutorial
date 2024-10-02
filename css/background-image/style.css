@@ -1,0 +1,7 @@
+body {
+    background-image: url(ruka-chan-smile.jpeg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed; /* fixed relative to the viewport */
+    background-size: cover;
+}

@@ -1,12 +1,40 @@
 .box {
-    width: 200px;
-    height: 200px;
-    background-color: hsl(188, 100%, 63%);
+  width: 200px;
+  height: 200px;
+}
 
+.box2 {
+  width: 100px;
+  height: 100px;
+}
+
+#relative {
+  background-color: hsl(188, 100%, 63%);
+  position: relative;
+  left: -10px;
 }
 
 #fixed {
-    position: fixed;
-    top: 200px;
-    left: -100px;
+  background-color: hsl(128, 73%, 39%);
+  position: fixed;
+  right: 0px;
+  bottom: 0px;
+}
+
+#absolute {
+  background-color: hsl(0, 100%, 63%);
+  position: absolute;
+  top: 50px;
+  left: 50px;
+}
+
+#sticky {
+  background-color: hsl(233, 82%, 44%);
+  position: sticky;
+  top: 0px;
+}
+
+#static {
+  background-color: hsl(54, 78%, 45%);
+  position: static;
 }
