@@ -16,6 +16,6 @@
     float: left;
     min-height: 50%;
 
-    text-align: center;
+    text-align: center; /*  set the horizontal alignment of text within a block-level element  */
 
 }

@@ -1,0 +1,25 @@
+#container {
+    border: 2px solid;
+}
+
+/* descendant */
+#container p {
+    background-color: hsl(60, 100%, 70%);
+}
+
+/* child */
+#container > p {
+    color: blue;
+    font: bold;
+    font-size: large;
+}
+
+/* general sibling */
+#container ~ p {
+    background-color: hsl(133, 72%, 38%);
+}
+
+/* adjacent sibling */
+#container + p {
+    color: red;
+}
