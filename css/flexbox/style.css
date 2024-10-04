@@ -6,10 +6,10 @@
     /* justify-content: space-around;  */
 
     /* cross axis | */
+    align-content: flex-start; /* Primarily used in flexbox and grid layouts */
     border: 10px solid black;
     height: 90vh;
     flex-wrap: wrap;
-    align-content: flex-start;
     column-gap: 2em;
     row-gap: 2em;
 
